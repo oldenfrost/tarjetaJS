@@ -1,0 +1,92 @@
+:root{
+--main-bg: radial-gradient(#292929, #181717);
+--card-bg:linear-gradient(180deg, #3e33aa 0%, #17082b 40%, #000000 100%);
+--text-color1:#fff;
+--text-color2:#450d9e;
+--text-color3:#5b5792;
+
+
+
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./textura/1165253.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+
+   
+
+}
+.container{
+  background-image: url(./textura/548279.jpg);
+  background-size: cover;
+  width: 270px;
+  height: 270px;
+  border-radius: 32px;
+  margin-bottom: 40px;
+}
+.main-card{
+    width: 310px;
+    background: var(--card-bg);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.header{
+    margin-bottom: 20px;
+    color: var(--text-color1);
+}
+
+.imagen-3d{
+    background: var(--main-bg);
+    width: 270px;
+    height: 270px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.descripcion{
+    color:var(--text-color2);
+    margin-bottom: 40px;
+}
+.linea{
+    width: 100%;
+    height: 2px;
+    background-color: var(--text-color2);
+    margin-bottom: 40px;
+}
+
+.creador{
+    width: 30px;
+    border-width: 3px;
+    border-radius: 50%;
+    border-style: solid;
+    border-color: var(--text-color3);
+    margin-right: 8px;
+}
+.creado{
+    display: flex;
+    align-items: center;
+    color: var(--text-color3);
+    font-size: small;
+   
+}
+.nombre{
+    color:var(--text-color1);
+    text-decoration: none;
+}
+.nombre:hover{
+    color:var(--text-color2);
+}
